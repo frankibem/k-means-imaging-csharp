@@ -40,6 +40,7 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Numerics" />
   </ItemGroup>
   <Choose>
@@ -55,9 +56,10 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="EnumerableExtensionsTests.cs" />
+    <Compile Include="Extensions\EnumerableExtensionsTests.cs" />
+    <Compile Include="Imaging\KMeansAdapterTests.cs" />
     <Compile Include="KMeansTests.cs" />
-    <Compile Include="MatrixExtensionsTests.cs" />
+    <Compile Include="Extensions\MatrixExtensionsTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TestHelpers.cs" />
   </ItemGroup>
